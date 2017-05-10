@@ -50,28 +50,12 @@
         </developer>
     </developers>
     <scm>
-        <connection>${project.github.url}</connection>
-        <developerConnection>${project.github.url}</developerConnection>
+        <connection>scm:git:${project.github.url}</connection>
+        <developerConnection>scm:git:${project.github.url}</developerConnection>
         <url>${project.github.group}</url>
     </scm>
     <organization>
         <name>easytoolsoft Inc.</name>
         <url>http://www.easytoolsoft.com/</url>
     </organization>
-    <ciManagement>
-        <system></system>
-        <url></url>
-    </ciManagement>
-    <distributionManagement>
-        <repository>
-            <id>maven-releases</id>
-            <name>Nexus Release Repository</name>
-            <url>http://nexus.easytoolsoft-inc.com/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>maven-snapshots</id>
-            <name>Nexus Snapshot Repository</name>
-            <url>http://nexus.easytoolsoft-inc.com/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
 </project>
